@@ -1,0 +1,7 @@
+version: '3'
+services: 
+  scraper:
+    image: mattwiley/scraper:latest
+    build:
+      dockerfile: ./docker/Dockerfile
+      context: ../
